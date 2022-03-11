@@ -3,7 +3,7 @@ API para gerenciar vaga de estacionamento.
 
 ## Tecnologias utilizadas
 - Java 11
-- Spring Boot
+- Spring Boot (v2.6.3)
 - JPA
 - Lombook
 
