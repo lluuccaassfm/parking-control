@@ -35,7 +35,9 @@ public class ParkingSportModel implements Serializable {
     private LocalDateTime registrationDate;
     @Column(nullable = false, length = 130)
     private String responsibleName;
-
-
+    @Column(nullable = false, length = 30)
+    private String apartment;
+    @Column(nullable = false, length = 30)
+    private String block;
 
 }
