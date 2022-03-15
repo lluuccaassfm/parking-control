@@ -44,4 +44,8 @@ public class ParkingSpotService {
         return parkingSpotRepository.findById(id);
     }
 
+    @Transactional
+    public void delete(ParkingSportModel parkingSportModel) {
+        parkingSpotRepository.delete(parkingSportModel);
+    }
 }
